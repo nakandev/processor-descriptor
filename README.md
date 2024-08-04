@@ -1,2 +1,3 @@
-# processor-designer
-Processor Design Tool
+# processor-descriptor
+
+A Simple Processor Design Tool

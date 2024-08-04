@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "processor-descriptor"
+version = "0.1.0"
+description = "Simple Processor Design Tool"
+authors = ["nakandev <nakandev.s@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "pd" }
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
